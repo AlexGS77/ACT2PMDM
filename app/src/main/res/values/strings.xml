@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CRM Clientes</string>
+
+    <!-- Pantalla principal -->
+    <string name="titulo_principal">Gestor de Clientes CRM</string>
+    <string name="buscar_hint">Buscar por nombre o email…</string>
+    <string name="total_clientes">Total de clientes: %d</string>
+    <string name="agregar_cliente">Agregar nuevo cliente</string>
+
+    <!-- Formulario -->
+    <string name="titulo_nuevo_cliente">Nuevo Cliente</string>
+    <string name="titulo_editar_cliente">Editar Cliente</string>
+    <string name="hint_nombre">Nombre completo *</string>
+    <string name="hint_email">Correo electrónico *</string>
+    <string name="hint_telefono">Teléfono (mínimo 9 dígitos) *</string>
+    <string name="campos_obligatorios">* Campos obligatorios</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_actualizar">Actualizar</string>
+
+    <!-- Validaciones -->
+    <string name="error_nombre_vacio">El nombre es obligatorio</string>
+    <string name="error_email_vacio">El email es obligatorio</string>
+    <string name="error_email_invalido">Formato de email inválido</string>
+    <string name="error_telefono_vacio">El teléfono es obligatorio</string>
+    <string name="error_telefono_corto">El teléfono debe tener al menos 9 dígitos</string>
+    <string name="error_telefono_invalido">El teléfono solo puede contener números</string>
+
+    <!-- Mensajes -->
+    <string name="cliente_agregado">Cliente agregado correctamente</string>
+    <string name="cliente_actualizado">Cliente actualizado correctamente</string>
+    <string name="cliente_eliminado">Cliente eliminado correctamente</string>
+    <string name="error_guardar">Error al guardar el cliente</string>
+    <string name="error_eliminar">Error al eliminar el cliente</string>
+
+    <!-- Diálogo de eliminación -->
+    <string name="dialogo_eliminar_titulo">Eliminar Cliente</string>
+    <string name="dialogo_eliminar_mensaje">¿Estás seguro de que deseas eliminar a %s?</string>
+    <string name="btn_eliminar">Eliminar</string>
+    <string name="btn_cancelar">Cancelar</string>
+
+    <!-- Item cliente -->
+    <string name="accion_hint">Toca para editar • Mantén presionado para eliminar</string>
+</resources>
